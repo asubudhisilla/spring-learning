@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 	
-	@RequestMapping(value="/greeting.html")
+	@RequestMapping(value="/greeting")
 	public String sayHello(Model model)
 	{
 		model.addAttribute("greeting","Hello World!!!");

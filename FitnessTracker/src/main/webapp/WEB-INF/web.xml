@@ -15,7 +15,16 @@
 	<servlet-mapping>
 		<servlet-name>fitTrackerServlet</servlet-name>
 		<url-pattern>*.html</url-pattern>
-		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>fitTrackerServlet</servlet-name>
+		<url-pattern>*.json</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>fitTrackerServlet</servlet-name>
+		<url-pattern>*.xml</url-pattern>
 	</servlet-mapping>
 
 	<display-name>Archetype Created Web Application</display-name>
